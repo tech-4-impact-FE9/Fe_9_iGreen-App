@@ -3,6 +3,8 @@ import Navbar from "./component/Navbar/Navbar"
 import Home from "./component/Home/Home"
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import Footer from "./component/Footer/Footer"
+
 
 //npm install react-router-dom@5
 
@@ -18,7 +20,9 @@ function App() {
           </Route>
           
         </Switch>
+        
       </Router>
+      <Footer/>
     </>
   )
 }

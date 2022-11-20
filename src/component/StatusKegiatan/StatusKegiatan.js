@@ -11,6 +11,7 @@ function StatusKegiatan() {
     const [find, setFind] = useState("being processed")
 
     useEffect(() => {
+        document.title = "Status Kegiatan"
         axios.get("https://634b803dd90b984a1e3ac3f4.mockapi.io/api/fe9/apiPenyimpananDataPendaftaran")
         .then((result) => {
             let resultFix = result.data
@@ -37,7 +38,7 @@ function StatusKegiatan() {
                 <h4>My Activities</h4>
                 <div className="sub-nav d-flex text-decoration-none">
                     <a className="button-active" href="kegiatan-active">Active Activities</a>
-                    <a className="button-regis" href="/">Registration Status</a>
+                    <a className="button-regis" href="/Kegiatan">Registration Status</a>
                 </div>
             </header>
 

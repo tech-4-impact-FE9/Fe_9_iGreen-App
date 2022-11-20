@@ -2,7 +2,7 @@ import Navbar from "../Navbar/Navbar"
 import Footer from "../Footer/Footer"
 import { useEffect, useState } from "react"
 import axios from 'axios'
-import {useNavigate, Outlet} from "react-router-dom"
+import {useNavigate} from "react-router-dom"
 import './statusKegiatanStyle.css'
 
 function KegiatanActive() {
@@ -37,8 +37,8 @@ function KegiatanActive() {
             <header className="header mt-5">
                 <h4>My Activities</h4>
                 <div className="sub-nav d-flex text-decoration-none">
-                    <a className="button-active" href='kegiatan-active'>Active Activities</a>
-                    <a className="button-regis" href='/'>Registration Status</a>
+                    <a className="button-active" href='/kegiatan-active'>Active Activities</a>
+                    <a className="button-regis" href='/Kegiatan'>Registration Status</a>
                 </div>
             </header>
 

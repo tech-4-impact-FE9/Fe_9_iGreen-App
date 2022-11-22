@@ -12,3 +12,5 @@ Aplikasi kami terbagi menjadi dua role hak akses yaitu:
 2. Admin
 
 Untuk halaman admin link Deploy: [https://igreen-admin-v3.netlify.app/]
+
+Untuk link Github admin: [https://github.com/Riskidwiindah/iGreen-Admin.git]
